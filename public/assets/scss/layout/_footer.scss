@@ -34,6 +34,7 @@
         }
     }
     &__border-bottom-4{ 
+        background: linear-gradient(82.24deg, #43DD9B 2.46%, #80B0E1 139.34%);
         padding-top: 70px;
         border-top:1px solid rgba(255, 255, 255, 0.1);
         border-bottom:1px solid rgba(255, 255, 255, 0.1);
@@ -731,14 +732,14 @@
     }
     & .tp-footer__input{
         & button{
-            background-color: #FFF;
-            border: 1px solid #7037E4;
+            background: linear-gradient(123.47deg, #0569CF 6.39%, #037275 42.61%, #04C874 83.28%),
+	linear-gradient(0deg, rgba(0, 38, 78, 0.12), rgba(0, 38, 78, 0.12));
             & svg{
-                color: #7037E4;
+                color: white;
                 transition: .3s;
             }
             &:hover{
-                background-color: transparent;
+                background: linear-gradient(to left, #29ef9a, #0074e6);
                 & svg{
                     color: var(--tp-common-white);
                 }

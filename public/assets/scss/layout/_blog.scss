@@ -144,7 +144,7 @@
     }
     &-content-wrapper{
         padding: 35px 40px 50px 40px;
-        background: #7B42F7 !important;
+        background: linear-gradient(82.24deg, #4AFFB1 2.46%, #52A7FF 139.34%); 
         @media #{$md}{
             padding: 35px 30px 50px 30px;
         }

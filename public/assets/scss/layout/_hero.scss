@@ -1170,12 +1170,13 @@
   left: 0;
   right: 0;
   top: 0;
-  background: linear-gradient(
-      180.21deg,
-      #fff9f9 -64.58%,
-      hsla(0, 0%, 100%, 0.1) 115.31%
-    ),
-    linear-gradient(90deg, #6c35de, #a364ff 50%, #ffc7ff);
+  // background: linear-gradient(
+  //     82.24deg,
+  //     #fff9f9 2.46%,
+  //     hsla(0, 0%, 100%, 0.1) 139.34%
+  //   ),
+  //   linear-gradient(82.24deg, #6c35de 2.46%, #a364ff 50%, #ffc7ff 139.34%);
+  background: linear-gradient(82.24deg, #4AFFB1 2.46%, #52A7FF 139.34%); 
   opacity: 0.9;
   border-radius: 30px;
   margin: auto;

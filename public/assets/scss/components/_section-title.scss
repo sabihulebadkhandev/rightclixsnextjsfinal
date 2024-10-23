@@ -228,8 +228,7 @@
 //         background-color:#7B42F7;
 //     }
 // }
-
-.tp-section-subtitle-5{
+.purple-bg{
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.12em;
@@ -282,4 +281,8 @@
 	left: 0;
 	height: 100%;
 	width: 100%;
+}
+
+.purple-bg{
+    background: linear-gradient(82.24deg, #4AFFB1 2.46%, #52A7FF 139.34%); 
 }
