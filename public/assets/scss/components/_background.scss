@@ -14,7 +14,13 @@
 	background: var(--tp-grey-8);
 }
 .white-bg {
-	background: var(--tp-common-white);
+	// background: linear-gradient(
+    //   123.47deg,
+    //   #0569cf 6.39%,
+    //   #037275 42.61%,
+    //   #04c874 83.28%
+    // ),
+    // linear-gradient(0deg, rgba(0, 38, 78, 0.12), rgba(0, 38, 78, 0.12));
 }
 .black-bg {
 	background: var(--tp-common-black);

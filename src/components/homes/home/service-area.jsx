@@ -20,7 +20,7 @@ const ServiceArea = () => {
             <div className="tp-service-area tp-services-five-item-bg-color p-relative fix">
                   <div className="container-fluid p-0">                    
                      <div className= "tp-service-five-bg" 
-                     style={{backgroundImage: `url(${bg_img})`}}
+                      style={{ backgroundColor: '#0A558C' }}
                      ></div>
                      <div className="row g-0 align-items-center">
                         <div className="col-lg-6">

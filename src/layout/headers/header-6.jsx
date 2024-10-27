@@ -5,9 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
-
+import logo from "../../../public/assets/img/logo/logo-black.png";
 import logo_black from "../../../public/assets/img/logo/mainlogo.png";
-import logo_white from "../../../public/assets/img/logo/mainlogo-white.png";
+import logo_white from "../../../public/assets/img/logo/logo-black.png";
 import PhoneFour from "@/svg/phone-4";
 import WhatsappIcon from "@/svg/whatsapp-icon";
 import PhoneFourWhite from "@/svg/phone-4-white";
@@ -32,24 +32,13 @@ const HeaderSix = ({ style_2 = false }) => {
             style_2 ? "inner-header-2" : ""
           } ${sticky ? "header-sticky" : ""}`}
         >
-          <div className="container">
+          <div className="container p-0">
             <div className="row g-0 align-items-center">
               <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
-                <div className="header-bottom__logo">
-                  {style_2 ? (
-                    <Link href="/">
-                      <Image src={logo_black} alt="theme-pure" />
-                    </Link>
-                  ) : (
-                    <>
-                      <Link className="white-logo" href="/">
-                        <Image src={logo_white} alt="theme-pure" />
-                      </Link>
-                      <Link className="black-logo" href="/">
-                        <Image src={logo_black} alt="" />
-                      </Link>
-                    </>
-                  )}
+                <div className="header-bottom__logo" >
+                <Link href="/">
+                    <Image src={logo} alt="theme-pure" className="logo-black-1"/>
+                  </Link>
                 </div>
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">

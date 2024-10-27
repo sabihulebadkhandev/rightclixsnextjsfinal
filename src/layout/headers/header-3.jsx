@@ -6,7 +6,7 @@ import NavMenu from './nav-menu';
 import Image from 'next/image';
 
 
-import logo from "../../../public/assets/img/logo/mainlogo.png"
+import logo from "../../../public/assets/img/logo/logo-black.png"
 import PhoneFour from '@/svg/phone-4';
 import WhatsappIcon from '@/svg/whatsapp-icon';
 import ContactUsFormMuz from '@/forms/contact-us-form-muz';
@@ -26,20 +26,20 @@ const HeaderThree = () => {
         <header className="tp-header-height">
             <div id="header-sticky" className={`"header-bottom__area header__space header-sticky-bg-2 header-bottom__transparent z-index-5 ${sticky && "header-sticky"}`}>
                <div className="container">
-                  <div className="row align-items-center">
+                  <div className="row nav-header">
                      <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                         <div className="header-bottom__logo">
-                           <Link href="/"><Image src={logo} alt="" /></Link>
+                           <Link href="/"><Image src={logo} className='logo-black-1' /></Link>
                         </div>
                      </div>
-                     <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
+                     <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
                         <div className="header-bottom__main-menu header-bottom__main-menu-3">
                            <nav id="mobile-menu">
                               <NavMenu /> 
                            </nav>
                         </div>
                      </div>
-                     <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
+                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                         <div className="header-bottom__right d-flex align-items-center justify-content-end">
                            <div className="header-bottom__action">
                               {/* <a className="d-none d-md-inline-block search-open-btn"

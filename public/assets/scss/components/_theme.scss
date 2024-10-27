@@ -103,6 +103,31 @@ h6 {
   @include transition(0.3s);
 }
 
+.logo-black{
+  max-width: 85%;
+  height: auto;
+  margin-top: -9px;
+}
+
+.logo-black-1{
+  max-width: 75%;
+  height: auto;
+  margin-top: -6px;
+}
+@media (min-width: 831px) and (max-width:1025px) {
+  .logo-black-1 {
+  max-width: 85%;
+  height: auto;
+  margin-top: -6px;
+  }
+}
+
+.logo-black-2{
+  max-width: 75%;
+  height: auto;
+  margin-top: -6px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -191,13 +216,13 @@ a:focus,
 
 a:focus,
 a:hover {
-  color: inherit;
+  // color: inherit;
   text-decoration: none;
 }
 
 a,
 button {
-  color: inherit;
+  // color: inherit;
   outline: none;
   border: none;
   background: transparent;

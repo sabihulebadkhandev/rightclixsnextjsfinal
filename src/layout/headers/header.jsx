@@ -10,7 +10,8 @@ import NavMenu from "./nav-menu";
 import Image from "next/image";
 
 // import logo from "../../../public/assets/img/logo/logo-black.png";
-import mainLogo from "../../../public/assets/img/logo/mainlogo.png";
+import mainLogo from "../../../public/assets/img/logo/logo-black.png";
+// import mainLogo from "../../../public/assets/img/logo/mainlogo.png";
 import { SocialLinks, SocialLinksTwo } from "@/common/social-links";
 import PhoneFour from "@/svg/phone-4";
 import WhatsappIcon from "@/svg/whatsapp-icon";
@@ -76,22 +77,22 @@ const Header = () => {
           }`}
         >
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row nav-header">
               <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                 <div className="header-bottom__logo">
                   <Link href="/">
-                    <Image src={mainLogo} alt="theme-pure" />
+                    <Image src={mainLogo} alt="theme-pure" className="logo-black" />
                   </Link>
                 </div>
               </div>
-              <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
-                <div className="header-bottom__main-menu">
+              <div className="col-xxl-7 col-xl-7 col-lg-6 d-none d-lg-block">
+                <div className="header-bottom__main-menu ">
                   <nav id="mobile-menu">
                     <NavMenu />
                   </nav>
                 </div>
               </div>
-              <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
+              <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-8 col-6">
                 <div className="header-bottom__right d-flex align-items-center justify-content-end">
                   <div className="header-bottom__action">
                     {/* <a className="d-none d-md-inline-block search-open-btn"

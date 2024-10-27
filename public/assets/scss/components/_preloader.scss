@@ -154,7 +154,8 @@
     color: var(--tp-common-white);
     text-align: center;
     cursor: pointer;
-    background: var(--tp-theme-1);
+    // background: var(--tp-theme-1);
+    background-color: #0172E6 !important;
     transition: 1s ease;
     border: none;
   }

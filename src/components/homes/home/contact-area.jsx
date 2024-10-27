@@ -1,5 +1,6 @@
 import EmailThree from '@/svg/email-3';
 import LocationTwo from '@/svg/location-2';
+// import PhoneThree from '@/svg/phone-3';
 import PhoneThree from '@/svg/phone-3';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -40,7 +41,7 @@ const ContactArea = () => {
                           <ul>
                              <li>
                                <PhoneThree />                                   
-                                <Link href={`tel:${phone}`}>{phone}</Link>
+                                <Link href={`tel:${PhoneThree}`}>{phone}</Link>
                              </li>
                              <li>
                                <EmailThree /> 

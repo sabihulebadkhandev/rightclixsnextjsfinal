@@ -9,7 +9,7 @@
         position: relative;
         &::after{
             position: absolute;
-            background: linear-gradient(359.33deg, #7A41F8 0.59%, rgba(13, 92, 225, 0) 99.43%);
+            // background: linear-gradient(359.33deg, #7A41F8 0.59%, rgba(13, 92, 225, 0) 99.43%);
             transform: matrix(1, 0, 0, -1, 0, 0);
             top: 0;
             left: 0;
@@ -35,10 +35,11 @@
                 &:first-child{
                     & a{
                         font-weight: 600;
-                        font-size: 22px;
+                        font-size: 18px;
                         line-height: 16px;                       
                         letter-spacing: -0.06em;
-                        color: #FFFFFF;
+                        // color: #FFFFFF;
+                        color: black !important;
                     }
                 }
                 &:nth-child(2){
@@ -53,9 +54,10 @@
                 }
                 & a{
                     font-weight: 500;
-                    font-size: 15px;
+                    font-size: 16px;
                     line-height: 22px;
-                    color: rgba(255, 255, 255, 0.8);
+                    // color: rgba(255, 255, 255, 0.8);
+                    color: black;
                 }
                 & svg{
                     position: absolute;
@@ -67,8 +69,8 @@
     }
     &-input-wrapper{
         background: rgba(255, 255, 255, 0.020);
-        border: 1px solid rgba(255, 255, 255, 1);
-        box-shadow: 0px -1px 1px rgba(15, 56, 191, 0.2), 0px 1px 1px rgba(8, 18, 79, 0.2);
+        border: 2px solid rgb(106 177 201);
+        box-shadow: 0px -1px 4px 6px rgba(106, 177, 201, 0.5), 0px 1px 6px 8px  rgba(74, 252 ,180,0.4);
         backdrop-filter: blur(20px);
         border-radius: 30px;
         padding: 60px 50px;

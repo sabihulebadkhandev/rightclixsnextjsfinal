@@ -240,8 +240,8 @@
     color: var(--tp-common-black);
     font-family: var(--tp-ff-mont);
     padding-bottom: 0;
-    &.ecomm{
-    line-height: 24px;
+    &.ecomm {
+      line-height: 24px;
     }
     @media #{$xl} {
       font-size: 20px;
@@ -436,7 +436,13 @@
       display: inline-block;
       padding: 10px 25px;
       margin-bottom: 13px;
-      background-color: #7a42f7;
+      background: linear-gradient(
+          123.47deg,
+          #0569cf 6.39%,
+          #037275 42.61%,
+          #04c874 83.28%
+        ),
+        linear-gradient(0deg, rgba(0, 38, 78, 0.12), rgba(0, 38, 78, 0.12));
       color: white;
 
       &.ecomm {
@@ -543,13 +549,13 @@
   }
 }
 
-.tp-service-sm-item{
+.tp-service-sm-item {
   @media #{$xs} {
     padding: 30px;
   }
 }
 
-.tp-service-sm-content span{
+.tp-service-sm-content span {
   @media #{$xs} {
     font-size: 13px;
   }
@@ -672,12 +678,12 @@
   }
   &-title {
     font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 22px;
     color: var(--tp-common-white);
-    padding-bottom: 15px;
-    @media #{$xl} {
-      font-size: 20px;
+    // padding-bottom: 15px;
+    @media #{$lg} {
+      font-size: 16px;
     }
   }
   &-content {

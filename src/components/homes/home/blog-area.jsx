@@ -48,7 +48,7 @@ const BlogArea = () => {
                 <div className="tp-blog-four-item p-relative fix">
                   <div className="tp-blog-four-img fix">
                     <Link href="/blogs/how-to-dominate-the-uae-market-with-effective-social-media-strategies">
-                      <video autoPlay muted loop width="570px">
+                      <video autoPlay muted loop width="auto">
                         <source
                           src="/assets/img/hero/hero-video.webm"
                           type="video/webm"
@@ -63,7 +63,7 @@ const BlogArea = () => {
                     </div>
                     <div className="tp-blog-four-info">
                       <h4 className="tp-blog-four-title-sm">
-                        <Link href="/blogs/how-to-dominate-the-uae-market-with-effective-social-media-strategies">
+                        <Link href="/blogs/how-to-dominate-the-uae-market-with-effective-social-media-strategies" style={{color:"black"}} >
                         How to Dominate the UAE Market with Effective Social Media Strategies
                         </Link>
                       </h4>
@@ -90,7 +90,7 @@ const BlogArea = () => {
                 <div className="tp-blog-four-item p-relative fix">
                   <div className="tp-blog-four-img fix">
                     <Link href="/blogs/boost-your-roi-proven-digital-marketing-tactics-for-uae-businesses">
-                      <video autoPlay muted loop width="570px">
+                      <video autoPlay muted loop width="auto">
                         <source
                           src="/assets/img/hero/hero-video.webm"
                           type="video/webm"
@@ -105,7 +105,7 @@ const BlogArea = () => {
                     </div>
                     <div className="tp-blog-four-info">
                       <h4 className="tp-blog-four-title-sm">
-                        <Link href="/blogs/boost-your-roi-proven-digital-marketing-tactics-for-uae-businesses">
+                        <Link href="/blogs/boost-your-roi-proven-digital-marketing-tactics-for-uae-businesses" style={{color:"black"}} >
                           Boost Your ROI: Proven Digital Marketing Tactics for
                           UAE Businesses
                         </Link>

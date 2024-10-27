@@ -19,7 +19,7 @@ const { sub_title, title, description } = service_content;
 const ServiceArea = () => {
   return (
     <>
-      <div className="tp-service-area purple-bg p-relative pt-115 pb-105">
+      <div className="tp-service-area purple-bg1 p-relative pt-115 pb-105">
         <div className="tp-service-shape-right z-index">
           <Image src={img} alt="theme-pure" />
         </div>
@@ -51,7 +51,7 @@ const ServiceArea = () => {
                 <div className="tp-service-4-item z-index">
                   <div className="tp-service-4-icon">
                     {/* <Image src={item.img} alt="theme-pure" /> */}
-                    <video autoPlay muted loop width="125px">
+                    <video autoPlay muted loop width="110px">
                       <source
                         src="/assets/img/service/discovery-planning.webm"
                         type="video/webm"
@@ -65,7 +65,7 @@ const ServiceArea = () => {
                       Research & Analysis
                       </Link>
                     </h4>
-                    <span>In the very first step after discussing with our esteemed clients, we define project goals, target audience, and create a detailed plan. Our team of experts framework the site's structure, features, and different tools to ensure alignment with client objectives.</span>
+                    {/* <span>In the very first step after discussing with our esteemed clients, we define project goals, target audience, and create a detailed plan. Our team of experts framework the site's structure, features, and different tools to ensure alignment with client objectives.</span> */}
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const ServiceArea = () => {
                 <div className="tp-service-4-item z-index">
                   <div className="tp-service-4-icon">
                     {/* <Image src={item.img} alt="theme-pure" /> */}
-                    <video autoPlay muted loop width="125px">
+                    <video autoPlay muted loop width="110px">
                       <source
                         src="/assets/img/service/development-coding.webm"
                         type="video/webm"
@@ -87,7 +87,7 @@ const ServiceArea = () => {
                       Planning & Design
                       </Link>
                     </h4>
-                    <span> Our web development company in Dubai developers bring the design to life by writing code, integrating databases, and building interactive features. Our web specialists follow best practices for security, performance, and scalability.</span>
+                    {/* <span> Our web development company in Dubai developers bring the design to life by writing code, integrating databases, and building interactive features. Our web specialists follow best practices for security, performance, and scalability.</span> */}
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const ServiceArea = () => {
                 <div className="tp-service-4-item z-index">
                   <div className="tp-service-4-icon">
                     {/* <Image src={item.img} alt="theme-pure" /> */}
-                    <video autoPlay muted loop width="125px">
+                    <video autoPlay muted loop width="110px">
                       <source
                         src="/assets/img/service/testing-assurance.webm"
                         type="video/webm"
@@ -109,7 +109,7 @@ const ServiceArea = () => {
                       Development & Quality Assurance
                       </Link>
                     </h4>
-                    <span>Punctilious testing is conducted to recognize and resolve bugs, ensure cross-browser compatibility, and optimize load times. User experience and functionality are thoroughly validated before launch.</span>
+                    {/* <span>Punctilious testing is conducted to recognize and resolve bugs, ensure cross-browser compatibility, and optimize load times. User experience and functionality are thoroughly validated before launch.</span> */}
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const ServiceArea = () => {
                 <div className="tp-service-4-item z-index">
                   <div className="tp-service-4-icon">
                     {/* <Image src={item.img} alt="theme-pure" /> */}
-                    <video autoPlay muted loop width="125px">
+                    <video autoPlay muted loop width="110px">
                       <source
                         src="/assets/img/service/deployment-maintenance.webm"
                         type="video/webm"
@@ -131,7 +131,7 @@ const ServiceArea = () => {
                       Testing & Launch
                       </Link>
                     </h4>
-                    <span>When the website is finally launched. The best web development in UAE experts monitored the website for performance, and maintained it to keep it secure and up to date. The ongoing updates, backups, and support are provided to ensure continued success.</span>
+                    {/* <span>When the website is finally launched. The best web development in UAE experts monitored the website for performance, and maintained it to keep it secure and up to date. The ongoing updates, backups, and support are provided to ensure continued success.</span> */}
                     {/* <Link
                       className="tp-btn-service text-lightt"
                       href="/service-details"

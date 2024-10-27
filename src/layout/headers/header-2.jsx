@@ -5,8 +5,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
 
-import white_logo from "../../../public/assets/img/logo/mainlogo-white.png";
-import black_logo from "../../../public/assets/img/logo/mainlogo.png";
+import white_logo from "../../../public/assets/img/logo/logo-black.png";
+import black_logo from "../../../public/assets/img/logo/logo-black.png";
 import PhoneFour from "@/svg/phone-4";
 import WhatsappIcon from "@/svg/whatsapp-icon";
 import PhoneFourWhite from "@/svg/phone-4-white";
@@ -49,14 +49,14 @@ const HeaderTwo = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-xxl-6 col-xl-5 col-lg-5 d-none d-lg-block">
+              <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
                 <div className="tp-header-2__main-menu text-center">
                   <nav id="mobile-menu">
                     <NavMenu />
                   </nav>
                 </div>
               </div>
-              <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-8 col-6">
+              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                 <div className="tp-header-2__right d-flex align-items-center justify-content-end">
                   <div className="header-bottom__action">
                     {/* <a className="d-none d-md-inline-block search-open-btn"

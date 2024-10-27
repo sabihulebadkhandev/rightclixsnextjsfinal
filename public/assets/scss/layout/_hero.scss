@@ -655,7 +655,8 @@
   font-size: 96px;
   line-height: 1.1;
   letter-spacing: -0.02em;
-  color: var(--tp-common-white);
+  // color: var(--tp-common-white);
+  color: black !important;
   &.ecom {
     font-size: 80px;
     @media #{$xs} {
@@ -749,7 +750,7 @@
     &.child-1 {
       font-weight: 700;
       letter-spacing: -0.03em;
-      color: var(--tp-common-blue-4);
+      color: #0172E6 !important;
       & svg {
         position: absolute;
         bottom: 0;
