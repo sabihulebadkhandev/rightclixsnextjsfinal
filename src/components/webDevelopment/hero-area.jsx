@@ -65,9 +65,9 @@ const HeroArea = () => {
                      </div>
                      <div className="tp-hero-3-wrapper p-relative">
                         <div className="tp-hero-3-border-wrap d-none d-md-block">
-                           <span className="redius-shape-1"></span>
+                           {/* <span className="redius-shape-1"></span>
                            <span className="redius-shape-2"></span>
-                           <span className="redius-shape-3"></span>
+                           <span className="redius-shape-3"></span> */}
                         </div>
                         <div className="tp-hero-3-main-thumb z-index-5">
                            {/* <Image src={img_1} alt="them-pure" /> */}
@@ -79,7 +79,7 @@ const HeroArea = () => {
                            </video>
                         </div>
                         <div className="tp-hero-3-shape-5 d-none d-lg-block wow frist-img animated">
-                           <Image src={img_2} alt="them-pure" />
+                           {/* <Image src={img_2} alt="them-pure" /> */}
                         </div>
                         <div className="tp-hero-3-shape-6 d-none d-lg-block">
                            <span> <BounceLine /> </span>
